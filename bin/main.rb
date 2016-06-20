@@ -43,7 +43,7 @@ Select one option below:
    3 :  Ratio of GET's to POST's by OS by day
    4 :  Exit
 
-See 'ruby main.rb -h' for more information.
+Run 'ruby bin/main.rb -h' for more information.
 
 OPTIONS
 
