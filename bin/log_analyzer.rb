@@ -76,10 +76,11 @@ class LogAnalyzer
       # sort by no of items
       top_ua = user_agent_per_day_hash.sort_by { |user_agent, items_count| items_count }.reverse.first no_of_ua
       puts "#{date} =>"
-      print "\n\n"
+      print "\n"
       top_ua.each { |ua|
         puts "  #{ua[0]} -> #{ua[1]}"
       }
+      print "\n"
     }
   end
 
